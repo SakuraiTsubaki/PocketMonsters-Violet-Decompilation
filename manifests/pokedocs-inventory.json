@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "source": "https://github.com/pkZukan/PokeDocs",
+  "target": "SV",
+  "retrieved_at": "2026-09-14",
+  "status": "sweeping",
+  "flatbuffers_tree_sha": "33250fd793799248a70aca07f4a7c54e7f561144",
+  "flatbuffers": {
+    "animation": {"tree_sha":"9f843b72b751314361addab60bb7fc540cf44158","status":"catalogued","files":[["tracl.fbs","bd91e748e90d51ccd0663bddd371ad9acde31531"],["tracm.fbs","665caddba2befee8ba97fb57490416627fb0254d"],["tracn.fbs","2ee0505e17026862cbbe86e018ea1adc245c7ab4"],["tracp.fbs","709a3be60e3f2d879e6b9963329cf1d9d500f4b3"],["tracr.fbs","2a607283ffb0d1b2f186d5f9e8396cccb2935a31"],["tracs.fbs","2531372e426bd691ba588de0f039f1f351aeeba6"],["traef.fbs","73987de7d9cef2db50b6359f9b7b94c94926fd1b"],["tralk.fbs","e1b31dfc4240c102a851e57ad0b09197f075f367"],["tranm.fbs","a96d811383e70414427411f69616b25f200c41f2"],["trbik.fbs","bd5cf28a1282f325081d1dd3537e230d53f75741"],["trcma.fbs","5db53def6fd84bfc31b413586da628477b71a997"],["trmdt.fbs","99b6bf5e8db45c669cec80ffd47171fbd8f614ee"],["trspb.fbs","273d17ff9f8e1a9172729e9478cf1ae8221c7b22"]]},
+    "customization":{"tree_sha":"b6fe217441c7726426edaa3e4492c9279419fe1c","status":"catalogued","files":[["ccdata.fbs","bb5e959d1556f1ace82273f1a2d0e3eaebfc2c41"],["ccdatam.fbs","178ccf9f3b5b5e173c29549123db97875402308b"]]},
+    "field":{"tree_sha":"23b0769125c71e5d44a1c0b7ca184de6ae9ef133","status":"catalogued","files":[["trins.fbs","bdc571d6aab6898955a3dcbb52cde8c3fc9f1072"],["trlgt.fbs","fea449853d4232eb332a998cec1adbca59bf4bba"],["trtrr.fbs","4bb637dec13731bcc134f8098c7b1ded6a0a9387"]]},
+    "filesystem":{"tree_sha":"a493833a6aa57561e0884f9fd9333866093bc5d1","status":"catalogued","files":[["trpak.fbs","cab3e50ebfebf88da9168a7c49d5690d7c70aab7"],["trpfd.fbs","2630bc8de6bfaa7a5c5c1bee8e514400d6b29db1"],["trpfs.fbs","a76d9e3a1fc94a6b7434886173e4e6f596ab7012"]]},
+    "model":{"tree_sha":"9dbbff423b0279849772b137a4d74d1b9f634cd1","status":"catalogued","files":[["jewelloc.fbs","a9be6ba15a61ebd93c462538aaee3dd96adfb2ee"],["trbsm.fbs","7303c920ccf9a01fbd512431304aa7c4e37ccc3a"],["trltt.fbs","9b15f6d5fee668dffcc47ec498041a4fb70a0192"],["trmbf.fbs","715f4e328e2ec1bc5e6fd4937d0609e1a689b7d6"],["trmdl.fbs","994470d55254112ddca306ea4377be70364121c6"],["trmmt.fbs","4ba1a173357ceeb0693e03f54d725e6ee9f45bb5"],["trmsh.fbs","6f80fe5389f0f27f4f5b7ac4d07eaed1ece9f35d"],["trmtr.fbs","7e2cc3c5177b128c92d54a6534000bbf75379001"],["trpokecfg.fbs","59dae679f95c78de19cfaaed235dd5a956f70aae"],["trskl.fbs","8dc099e25d7a688cafbf2a1e4929db21242c4a97"]]},
+    "pml":{"tree_sha":"e4c3bbe74972f546828da723ef0eebd58dad2878","status":"catalogued","files":[["personal.fbs","d85f9ace40a466c63857dcd8aa8b00fa789f4570"]]},
+    "render":{"tree_sha":"c51c5ebcddeb92f1dd4a6136885ba51d2742a0b2","status":"catalogued","files":[["trsha.fbs","9393f88145d9a414cd6124be83be1526cf083cb6"],["trtch.fbs","0825050e4fea28c4bcafce4162d49553c69a8841"]]},
+    "resources":{"tree_sha":"36f706dfe10c8d07c69d082be20589a6865fcf83","status":"catalogued","files":[["trpmcatalog.fbs","a3b15224fe8be3206ad8deb0cca248c43f1ba441"]]},
+    "scene":{"tree_sha":"6e6bb44b5d6de13ebb25eb3a363ebd94f0a0aed4","status":"sweeping","notes":"Large directory; file-by-file enumeration is continuing in smaller batches."}
+  },
+  "hashlists": {
+    "root_tree_sha":"6ee8693f4a46e5112bc123e33ea22292e2cbdcf0",
+    "Audio":{"tree_sha":"066f9b8b70d764c4dbb7e83519cc49a83f5a295a","status":"sweeping","notes":"Large category including BATTLE_SYSTEM, BGM, COMMON, DEMO, ENV, EventsSounds, Init, ME, NPC, PL, PM, PM_SKILLS, PM_VOICE, PROPS and additional entries; full file list still being enumerated."},
+    "FileSystem":{"tree_sha":"e2260dd44b6040ba71c86e92520c127ee006a2ce","status":"catalogued","files":[["README.md","2f4a0b14a396aaf8e233aafa2f989d2ab83e2618"],["hashes_inside_fd.txt","455e6205603d224ac40d63eefe5f6dfd539f6d94"],["hashes_inside_trpak.txt","0921c13de45f416e80d75a371ca54818174d07e8"]]},
+    "Lua":{"tree_sha":"0c23318d02a0ec27c2698cc276c0f5daebc87246","status":"catalogued","files":[["lua_c_hashes.txt","708b6169fd9c77e6c0a2365d4ce0f667a8f6beef"],["lua_e_hashes.txt","426237c0ec1b6c19eb9dc6dec2012944c5f1d6ef"],["lua_f_hashes.txt","b01aa2f4d8e46ea494fe4cbff1179284b15411ca"],["lua_s_hashes.txt","2c5e3ef4e05759e4d96fe3967b3bf32f8a61d221"]]}
+  }
+}
