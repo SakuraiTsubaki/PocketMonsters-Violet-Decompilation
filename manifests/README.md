@@ -2,6 +2,17 @@
 
 This directory stores machine-readable and reviewable inventories for reconstructed source, extracted/recreated assets, public research sources, version coverage, hashes, and reproducibility metadata.
 
+## Active manifest index
+
+- `source-registry.json` — high-value public-source registry and source-policy metadata.
+- `public-source-catalog.csv` — page/repository/dataset-level discovery catalog for the exhaustive public-source sweep.
+- `technical-source-catalog.csv` — reverse-engineering tools, code/data coverage, and upstream/dependency relationships.
+- `pokedocs-inventory.json` — file/SHA inventory of the currently published `pkZukan/PokeDocs` SV schemas and hash lists.
+- `pkhex-save-structure-inventory.json` — file/SHA inventory of the currently published PKHeX Gen9/SV save classes and substructures.
+- `example.asset-manifest.json` — reusable starting point for reconstructed asset manifests.
+
+A manifest marked `catalogued-current-tree` means the referenced upstream tree was completely enumerated at the recorded retrieval point. It does **not** mean the Generation IX public-source survey is exhaustive.
+
 ## Purpose
 
 A manifest should make it possible to answer:
