@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "source": "https://github.com/kwsch/PKHeX",
+  "retrieved_at": "2026-09-14",
+  "target": "SV",
+  "status": "catalogued-current-tree",
+  "main_save": ["PKHeX.Core/Saves/SAV9SV.cs","aa80bbec582b9e400dc4ce1b96d554c0af3888d2"],
+  "block_accessor": ["PKHeX.Core/Saves/Access/SaveBlockAccessor9SV.cs","d15e3c29255feb5f98f8f1befdf420d57c04718c"],
+  "substructures": {
+    "path": "PKHeX.Core/Saves/Substructures/Gen9/SV",
+    "tree_sha": "b4ea0dae76c406ebfc2efdef7c6a9542d93b08c1",
+    "truncated": false,
+    "files": [
+      ["BlankBlocks9.cs","e943ccc8297c9f7ee1e4fdb7e1a75a57c7691bae"],
+      ["BlueberryClubRoom9.cs","183050edfb1ff2d1c2f33561dba39a77de72d618"],
+      ["BlueberryQuestRecord9.cs","669e80d22b2eb0606a109688f80466665e6aeabe"],
+      ["Box9.cs","af33974e79b7028d1422108185e764fc4998bea6"],
+      ["BoxLayout9.cs","e9f66a99e788bd2ec6b70a4b63d04d6ef8028bc5"],
+      ["ConfigCamera9.cs","54c40a5d6615bfedcb1046a23d4c12437ccf6cd1"],
+      ["ConfigSave9.cs","7f6142ef815625d20fd333a368bcfce8505f115a"],
+      ["DXT1.cs","2248e68f08d87482fa317e27a662abc6706e3f10"],
+      ["FashionItem9.cs","c56275a884da5af85a78ffb9930a5c8502268a8c"],
+      ["FixedSpawnList9.cs","15aa361f2b4987f4d25e402b03391dba85cdeb3b"],
+      ["MyItem9.cs","1234d1a1ade35de77e9a896c3768abee21edfff1"],
+      ["MyStatus9.cs","2c2b0a626f818fe0f57e9ba597f1844cdc09bc90"],
+      ["Party9.cs","539c9bdc31ee3920c7fed084a284954f0fd58a0e"],
+      ["PlayTime9.cs","3387741ae04f46a42a4c8838ff64ad74ebf02fd3"],
+      ["PlayerAppearance9.cs","4084f234d4b3eb467196083a51598e4749ac83c2"],
+      ["PlayerFashion9.cs","4128afe2698c39d1240f985cb4724e1a399b738d"],
+      ["PlayerFashionUnlock9.cs","68f6983c3936de2e4ddce02960235a7c6509ffb7"],
+      ["RaidSevenStar9.cs","c1b78601eb7f8ef0eb046692221300be7c3469ac"],
+      ["RaidSpawnList9.cs","55a02b9d9889efa0a2c2333ba2ab8c6d238fc723"],
+      ["RuntimeLanguage.cs","2316ce7513bcf54cc4f3d9539ab59e0fbf1d6d8c"],
+      ["ThrowStyle9.cs","42513d4ede1e2ccad6c023b04e98f0f45992e20b"]
+    ]
+  },
+  "notes": "Complete current PKHeX Gen9/SV substructure directory inventory at retrieval time. Public source evidence only; not project Observed. Future upstream changes are detected by tree/file SHA comparison."
+}
