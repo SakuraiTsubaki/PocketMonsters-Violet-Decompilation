@@ -1,38 +1,29 @@
 # Project Status
 
-**Current stage:** Initial setup
+**Current stage:** Phase 1 — target identity and filesystem inventory
 
-This document tracks decompilation progress, target-version coverage, validation level, and the next major milestones.
-
-## Version inventory
-
-| Target | Region | Language | Revision / update | Verification | Notes |
-| --- | --- | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD | Unverified | Populate as research begins |
+Pokémon Violet decompilation is active. The repository now has a deterministic extracted-tree inventory tool, tests, a version matrix, and a frozen baseline document.
 
 ## Progress
 
-- [ ] Establish authoritative version/revision inventory
-- [ ] Document executable and section layout
-- [ ] Map symbols, functions, and major subsystems
-- [ ] Document game-data formats and resource containers
-- [ ] Reconstruct scripts, events, and behavior
-- [ ] Reconstruct asset pipelines and metadata
-- [ ] Add reproducible extraction/repacking tooling
-- [ ] Add automated verification where practical
+- [x] Establish repository policy and ignore rules
+- [x] Record official update-version coverage
+- [x] Add extracted-tree inventory tooling
+- [x] Add deterministic inventory tests
+- [ ] Run inventory against verified local Violet targets
+- [ ] Map executable and section layout
+- [ ] Map major RomFS directory families and containers
+- [ ] Compare Scarlet/Violet common and version-specific paths
+- [ ] Select and reconstruct the first subsystem
 
 ## Validation levels
 
 - **Unverified** — proposed or recorded but not independently checked.
 - **Observed** — confirmed directly in a target build or extracted data.
 - **Reproduced** — behavior or data can be recreated with documented steps.
+- **Mapped** — structure and role are documented sufficiently for reconstruction.
 - **Matched** — reconstructed output is verified against the intended target.
 
-## Next milestones
+## Next milestone
 
-1. Identify and document supported target versions.
-2. Build an initial executable/data map.
-3. Select the first subsystem for source reconstruction.
-4. Record findings in `docs/` and verification evidence in issues or manifests.
-
-Update this file whenever the project reaches a meaningful milestone or adds a new supported target.
+Generate inventories from verified local targets, then build the first ExeFS/RomFS structural map and Scarlet/Violet cross-version path comparison.
