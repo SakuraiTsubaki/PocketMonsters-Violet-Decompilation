@@ -30,6 +30,10 @@ dumps/
 .local/
 .cache/
 
+# Locally installed toolchains / emulator builds
+.local-tools/
+external/
+
 # Build output
 build/
 out/
