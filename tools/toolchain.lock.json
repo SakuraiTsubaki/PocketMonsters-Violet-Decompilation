@@ -1,0 +1,13 @@
+{
+  "schema": "sakurai.generation-ix-toolchain.v1",
+  "date": "2026-09-16",
+  "target": "Nintendo Switch / AArch64",
+  "title": "Pokemon Violet",
+  "dotnet": {"sdk": "10.0.401"},
+  "ghidra": {"version": "12.1.3", "tag": "Ghidra_12.1.3_build", "archive": "ghidra_12.1.3_PUBLIC_20260817.zip", "sha256": "93a5d11a9ad510622acaaf908c556a7b9b764d338e78a7567f3689bf5081fd54", "java_min": 21},
+  "pknx": {"repository": "https://github.com/kwsch/pkNX.git", "commit": "d191cd0e5c05f2af81d9a41c1f1d82e6621b351a", "target_framework": "net10.0", "role": "secondary format/data research reference; verify findings independently"},
+  "emulator": {"name": "Ryubing / Ryujinx", "source_mirror": "https://github.com/Leuconoe/Ryubing.git", "commit": "793ca017ff4f6e48b798a62d2486405bfc42ef39", "required_dotnet_sdk": "10.0.301", "build": "dotnet build -c Release -o build", "role": "local runtime validation"},
+  "python_packages": ["capstone", "lief", "pyelftools", "construct", "kaitaistruct", "rich", "xxhash"],
+  "system_tools": ["git", "curl", "unzip", "jq", "file", "xxd", "cmake", "ninja", "clang", "llvm", "lld", "gcc-aarch64-linux-gnu", "binutils-aarch64-linux-gnu", "openjdk-21-jdk", "zstd", "lz4"],
+  "non_repository_inputs": ["prod.keys", "title.keys", "console firmware", "retail game images", "raw decrypted dumps"]
+}
